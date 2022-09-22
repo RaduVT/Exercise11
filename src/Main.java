@@ -10,16 +10,14 @@ class Exercise11 {
 
         int y;
         System.out.println("enter second number:");
-
-
-        inputValue = new Scanner(System.in);
+        
         y = inputValue.nextInt();
 
         if (x > y){
-            System.out.println("The biggest number is: " +x);
+            System.out.println("Order is " +x " and " +y);
 
         } else {
-            System.out.println("the biggest number is: " +y);
+            System.out.println("Order is: " +y " and " +x);
         }
     }
 }
